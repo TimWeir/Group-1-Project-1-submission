@@ -8,7 +8,26 @@ The city of Newark, NJ has compiled a list of multiple abandoned and vacant buil
 
 The notebook for this segment appears under the "01_Newark Overall Housing Data" folder, named "HousingDataAnalysis.ipynb".
 
-Abandoned House Data http://data.ci.newark.nj.us/dataset/abandoned-properties/resource/796e2a01-d459-4574-9a48-23805fe0c3e0
+This part of the project covers data and its analysis of the overall housing in NEwark, NJ
+
+The data was collected from the Census website for years from 2015-2019. The data was cleaned to roll up to city level, drop the unwanted values, format the data to remove the unwanted characters in the data. After cleaning the data it was further analysed as below.
+
+1. Demographics: This section covers the details on demographics in Newark. The data collected is for 2019. 
+   The output shows the race distribution, population, median age in Newark for 2019
+
+2. THe next section is Occupancy characterstics in NEwark for years from 2015- 2019 . No of units occupied, which were rented, owner occupied.
+
+3. Following section covers the housing details from 2015-2019 in Newark and in NEw Jersey.
+
+4. Used this data with Occupancy data observations to plot a line graph to see a trend of how the housing changed in Newark, NJ over 5 years.
+
+5. Geographical Mobility : This section tracks how the movement in Newark, NJ over 5 years 
+
+6. The line plot describes the mobility observed in NEwark, NJ. Data gives details on  how many people moved in county, moved from out of state to NEwark, from outside country to Newark.
+
+7. This section shows the property values data of NJ state to Newark over 5 years.
+
+8. The plot describes the property value price range and the number of properties in Newark from 2015-2019
  
 
 
