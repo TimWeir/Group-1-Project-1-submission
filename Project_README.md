@@ -47,30 +47,49 @@ Pie plot showing the relative percentages of abandoned property by zip code
 
 # Part 3 - Poverty Rate Data Analysis
 
-For Poverty Analysis portion of the group project:
--Jupyter Notebook: Newark Poverty Rate.ipynb under folder names 05_Crime_Data_Study
-    -Open after Abandoned Housing analysis portion (Tim Weir’s branch of the project)
-    -Pulls data from newark_abandoned_data.csv (in data folder) and combines with: 
-        -US Census American Community Survey 5-Year Data (for 2019)
-            - https://api.census.gov/data/2019/acs/acs5?get=NAME,group(B01001)&for=us:1
-        -Google gmaps API
--Census Exception message after running Data Retrieval cell, still allows other cells to run
--Cleaned data set used for heatmap:
-    -newark_poverty_population.csv in output folder
-        -analysis takeaways at the end of the notebook done with Excel
--Poverty "Heat" Map:
-    -newark_poverty_map.png in output folder 
 
 
 
 
 # Part 4 - Education
 
-The notebooks for this segment appears under the "04_Education" folder, named "CollegeINFO.ipynb" and "HighSchoolINFO.ipynb".
+The notebooks for this segment appear under the "04_Education" folder, named "CollegeINFO.ipynb" and "HighSchoolINFO.ipynb".
 
+https://drive.google.com/drive/folders/13ryc7DyIACc78tC_o-s67LXHg982wf2h
+
+College scorecard 
+https://www.kaggle.com/kaggle/college-scorecard
+college-scorecard-release-*.zip contained a compressed version of the same data available through Kaggle Scripts.
+we used the data for 2014 to 2019 to undersand the surronding college. 
+Extracted the files, saved the .csv files, extrcated the columns needed for comparison and removed. Selected the infroamtion for NJ and compailed the data for the files into one to get the over all picture.  To show the number of years for each college we created the stack plot. Creted a Line chart to show withdrawla rate from NJIT to essex. completed an analysis on the withdarl rate as that column had more information to tell and we can use it to show if studets are staying in colleges after registring to show the effect of the high schools. 
+
+
+Higschool information 
+https://nj.gov/education/administrators/
+https://simple.wikipedia.org/wiki/List_of_counties_in_New_Jersey
+Collect the High school information for year 2015_ 16, assumption (students from high school in 2015-16 would have by be in college by 2018-2019). 
+
+From the data collected we pullled the Facility Attendace and Student Suspension Rate to see social impact of housing.
+Analyzed the commitment of the students and Facitlity in Newark (13) and Somerville(35). from the same data set we also looked at Graduation rate and School Climate.
 
 
 
 # Part 5 - Crime Data Study
 
-The notebooks for this segment appears under the "05_Crime_Data_Study" folder, named "5a_combined_Crime_UCR_2018_2019_2020.ipynb" and "5b_crime_data_Newark.ipynb".
+The notebooks for this segment appear under the "05_Crime_Data_Study" folder, named "5a_combined_Crime_UCR_2018_2019_2020.ipynb" and "5b_crime_data_Newark.ipynb".
+
+1) Load and run the "5a_combined_Crime_UCR_2018_2019_2020.ipynb". This combines data from the UCR for 2018, 2019, and 2020. The data sets were pulled and merged into a master data file before running a clean-up. Only the data for Newark, NJ was pulled and processed in the Jupyter notebook.
+
+a. This notebook includes the total percentage graphs for each year, 2018, 2019, and 2020, respectively, and a final graph of the totals for all three together in one graph
+
+2) Load and run the "5b_crime_data_Newark.ipynb". This data was pulled from a text file so additional steps were needed for processing the cleaning the data. The data was pulled in and converted to a CSV file by adding columns for each data set.
+
+a. CSV was saved and then loaded into the Jupyter notebook for additional processing.
+
+i. A “quick convert” button was added to Jupyter notebook but does not need to be used for running the notebook. This is noted by: “Extra optional cell to run for instant conversion from text to csv file”
+
+ii. You can skip this to run the rest of the Jupyter notebook quicker
+
+b. The one line of Newark specific data was pulled in and processed for the crime and additional items that were not used for the finished project but was run out of curiosity of the data.
+
+c. A complete graph of just the crime data was created out of this data set.
